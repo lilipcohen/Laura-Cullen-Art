@@ -1,0 +1,69 @@
+.about,
+.poem {
+    color: white;
+    font-size: 60px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.aboutme {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.name {
+    font-size: 20px;
+} 
+
+ .about-desc {
+    font-size: 15px;
+}
+
+
+
+.poempage {
+    line-height: 2;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 100px;
+} 
+
+.poempage img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 12px;
+}
+
+
+@media screen and (max-width: 812px) {
+    .about,
+    .poem {
+        bottom: 0;
+        font-size: 45px;
+    }
+
+    .name {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .about-desc {
+        text-align: center;
+    }
+
+    .before-footer {
+        height: 5vh !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .nav {
+        display: none;
+    }
+}

@@ -1,0 +1,145 @@
+.title,
+.upcoming {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    width: 100%;
+}
+
+.summary {
+    margin: 50px auto;
+    padding: 100px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px !important;
+}
+
+.summary h2 {
+    text-align: center;
+    font-size: 20px !important;
+    font-style: italic;
+    margin: 30px auto !important;
+    width: 100%;
+}
+
+.icon {
+    text-align: center;
+}
+
+.recent-work {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.recent h2 {
+    font-size: 40px;
+}
+
+.recent-desc {
+    width: 100%;
+}
+
+h3 {
+    margin-top: 10px !important;
+    font-size: 24px !important;
+}
+
+.publications {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+    .recent h2 {
+        text-align: center;
+    }
+
+    .upcoming {
+        margin-bottom: 0 ;
+    }
+    
+    .publications p {
+        margin-bottom: 30px;
+    }
+
+    .nav {
+        display: none !important;
+    }
+
+
+
+}
+ 
+@media screen and (min-width: 1024px) {
+    .hamburgermenu {
+        display: none !important;
+    }
+
+    .nav {
+        display: flex !important;
+    }
+}
+
+
+
+@media screen and (max-width: 812px) {
+    .react-parallax {
+        height: 500px;
+    }
+
+    .title {
+        width: 100%;
+        font-size: 45px;
+        bottom: 0;
+    }
+    .upcoming {
+        font-size: 40px;
+        bottom: 0;
+        margin-bottom: -150px;
+    }
+
+    .summary {
+        padding: 0;
+    }
+    .summary h1 {
+        font-size: 25px !important;
+    }
+    .recent h2 {
+        text-align: center;
+    }
+    .col-nodesc {
+        padding: 0;
+      
+    }
+    .desc {
+        padding: 0;
+        text-align: center;
+        margin: 0 !important;
+        flex: 1 90% !important;
+        max-width: 100% !important;
+       
+    }
+
+    .publications .col,
+    .recent-work .col-lg-8 {
+        flex-basis: auto;
+        flex-grow: 0;
+        margin-bottom: 10px;
+    }
+
+   
+   
+}
+
+
+
