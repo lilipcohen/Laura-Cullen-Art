@@ -4,12 +4,6 @@ import { Container, Col, Row } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 // import HamburgerNav from  "../components/HamburgerNav";
 import '../styles/Home.css';
-import artstudio from '../images/artstudio.png';
-import artspace from '../images/artspace.png';
-import gaslight from '../images/gaslight.JPG';
-import img1 from '../images/img1.png';
-import img2 from '../images/img2.png';
-import img3 from '../images/img3.png';
 
 const Home = () => {
  
@@ -18,7 +12,7 @@ const Home = () => {
    
     
     <div>
-      <Parallax bgImage={artstudio} strength={500}>
+      <Parallax bgImage="https://laura-cullen.s3.us-west-1.amazonaws.com/artstudio-1.png" strength={500}>
         <div style={{ height: 900 }}>
           <div className="title">Laura Cullen</div>
         </div>
@@ -42,7 +36,7 @@ const Home = () => {
       </div>
       </Container>
 
-      <Parallax bgImage={gaslight} strength={500}>
+      <Parallax bgImage="https://laura-cullen.s3.us-west-1.amazonaws.com/gaslight.JPG" strength={500}>
         <div style={{ height: 900 }}>
           <div className="title">Recent Work</div>
         </div>
@@ -85,7 +79,7 @@ const Home = () => {
         </Row>
       </Container>
 
-      <Parallax bgImage={artspace} strength={500}>
+      <Parallax bgImage="https://laura-cullen.s3.us-west-1.amazonaws.com/artspace.png" strength={500}>
         <div style={{ height: 800 }}>
           <div className="upcoming">
             Upcoming Exhibitions, Publications and Announcements
@@ -96,7 +90,7 @@ const Home = () => {
       <Container>
         <Row className="publications">
           <Col>
-            <img src={img1} alt="img1" />
+            <img src="https://laura-cullen.s3.us-west-1.amazonaws.com/img1.png" alt="img1" />
             <h3>Gaslight</h3>
             <p>
               Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -106,7 +100,7 @@ const Home = () => {
             </p>
           </Col>
           <Col>
-            <img src={img2} alt="img2" />
+            <img src="https://laura-cullen.s3.us-west-1.amazonaws.com/img2.png" alt="img2" />
             <h3>Tokyo's 19th International Art Exchange</h3>
             <p>
               Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -116,7 +110,7 @@ const Home = () => {
             </p>
           </Col>
           <Col>
-            <img src={img3} alt="img3" />
+            <img src="https://laura-cullen.s3.us-west-1.amazonaws.com/img3.png" alt="img3" />
             <h3>Gold Award of Excellence</h3>
             <p>
               Duis aute irure dolor in reprehenderit in voluptate velit esse

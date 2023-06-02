@@ -3,9 +3,6 @@ import React, { Component } from "react";
 import { Parallax } from "react-parallax";
 import { Container, Row, Col } from "react-bootstrap";
 import imageBank from "../images.json";
-import creativespace from "../images/creativespace.png";
-import gaslight from "../images/gaslight.JPG";
-import red from "../images/red.JPG";
 import ImageGallery from "../components/ImageGallery";
 import "../styles/Gallery.css";
 
@@ -27,7 +24,7 @@ class Gallery extends Component {
         const { images } = this.state
         return (
             <>
-                <Parallax bgImage={creativespace} strength={500}>
+                <Parallax bgImage="https://laura-cullen.s3.us-west-1.amazonaws.com/creativespace.png" strength={500}>
                     <div style={{ height: 900 }}>
                         <div className="title">Gallery</div>
                     </div>
@@ -44,7 +41,7 @@ class Gallery extends Component {
                             </div>
                         </Col>
                         {<Col md="6" className="carousel">
-                            <img src={gaslight} alt="gaslight" id="gaslight" />
+                            <img src="https://laura-cullen.s3.us-west-1.amazonaws.com/gaslight.JPG" alt="gaslight" id="gaslight" />
 
 
 
@@ -55,7 +52,7 @@ class Gallery extends Component {
 
                 </Container>
 
-                <Parallax bgImage={creativespace} strength={500}>
+                <Parallax bgImage="https://laura-cullen.s3.us-west-1.amazonaws.com/creativespace.png" strength={500}>
                     <div style={{ height: 900 }}>
                         <div className="title"></div>
                     </div>
@@ -74,7 +71,7 @@ class Gallery extends Component {
                                 </div>
                         </Col>
                             {<Col md="6" className="carousel">
-                                <img src={red} alt="red" id="red" />
+                                <img src="https://laura-cullen.s3.us-west-1.amazonaws.com/red.JPG" alt="red" id="red" />
 
 
 

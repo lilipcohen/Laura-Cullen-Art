@@ -11,7 +11,10 @@ const FooterNav = () => {
           <a href="/about">About</a>
         </li>
         <li>
-          <a href="/gallery"> Art Gallery</a>
+          <a href="/gallery">Art Gallery</a>
+        </li>
+        <li>
+          <a href="/press">Press</a>
         </li>
       </ul>
     </div>

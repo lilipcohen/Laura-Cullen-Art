@@ -2,15 +2,11 @@ import React from 'react';
 import { Parallax } from 'react-parallax';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../styles/About.css';
-import studio from '../images/studio.png';
-import creativespace from '../images/creativespace.png';
-import gaslight from '../images/gaslight.JPG';
-import red from '../images/red.JPG';
 
 const About = () => {
   return (
     <div>
-      <Parallax bgImage={studio} strength={500}>
+      <Parallax bgImage="https://laura-cullen.s3.us-west-1.amazonaws.com/studio.png" strength={500}>
         <div style={{ height: 800 }}>
           <div className="about">About</div>
         </div>
@@ -57,7 +53,7 @@ const About = () => {
         </Row>
       </Container>
 
-      <Parallax bgImage={creativespace} strength={500}>
+      <Parallax bgImage="https://laura-cullen.s3.us-west-1.amazonaws.com/creativespace.png" strength={500}>
         <div style={{ height: 800 }}>
           <div className="poem">Poem</div>
         </div>
@@ -84,8 +80,8 @@ const About = () => {
           culpa qui officia deserunt mollit anim id est laborum."
         </p>
 
-        <img src={gaslight} alt="gaslight" className="gaslight" />
-        <img src={red} alt="red" className="red" />
+        <img src="https://laura-cullen.s3.us-west-1.amazonaws.com/gaslight.JPG" alt="gaslight" className="gaslight" />
+        <img src="https://laura-cullen.s3.us-west-1.amazonaws.com/red.JPG" alt="red" className="red" />
       </div>
       </Container>
 

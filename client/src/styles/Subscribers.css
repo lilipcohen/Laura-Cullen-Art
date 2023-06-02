@@ -1,9 +1,0 @@
-.delete {
-  cursor: pointer;
-  position: absolute;
-  margin-left: 20px;
-}
-
-.delete:hover {
-  background: #bbb;
-}
