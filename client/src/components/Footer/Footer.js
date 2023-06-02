@@ -1,5 +1,4 @@
 import React from 'react';
-import FooterIcons from './FooterIcons';
 import FooterCopyright from './FooterCopyright';
 import FooterNav from './FooterNav';
 import FooterRows from './FooterRows';
@@ -15,7 +14,6 @@ const Footer = (props) => {
         <FooterContainer>
           <FooterRows>
             <FooterNav />
-            <FooterIcons />
           </FooterRows>
           <FooterCopyright />
         </FooterContainer>
