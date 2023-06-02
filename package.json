@@ -9,7 +9,7 @@
     "install": "cd client && npm install",
     "predeploy": "npm run build",
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
-    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "start:dev": "npm run client",
     "start:prod": "node server.js",
     "heroku-postbuild": "npm run build"
   },
